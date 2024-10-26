@@ -1,4 +1,4 @@
-package com.example.joaovitor_navigationdrawer;
+package com.example.joaovitor_navigationdrawer.view.fragments;
 
 import android.os.Bundle;
 
@@ -7,13 +7,14 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import com.example.joaovitor_navigationdrawer.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link QuintoPeriodoFragment#newInstance} factory method to
+ * Use the {@link SegundoPeriodoFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class QuintoPeriodoFragment extends Fragment {
+public class SegundoPeriodoFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +25,7 @@ public class QuintoPeriodoFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public QuintoPeriodoFragment() {
+    public SegundoPeriodoFragment() {
         // Required empty public constructor
     }
 
@@ -34,11 +35,11 @@ public class QuintoPeriodoFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment QuintoPeriodoFragment.
+     * @return A new instance of fragment SegundoPeriodoFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static QuintoPeriodoFragment newInstance(String param1, String param2) {
-        QuintoPeriodoFragment fragment = new QuintoPeriodoFragment();
+    public static SegundoPeriodoFragment newInstance(String param1, String param2) {
+        SegundoPeriodoFragment fragment = new SegundoPeriodoFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +60,6 @@ public class QuintoPeriodoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_quinto_periodo, container, false);
+        return inflater.inflate(R.layout.fragment_segundo_periodo, container, false);
     }
 }

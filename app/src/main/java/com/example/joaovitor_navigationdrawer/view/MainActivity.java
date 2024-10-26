@@ -1,18 +1,16 @@
-package com.example.joaovitor_navigationdrawer;
+package com.example.joaovitor_navigationdrawer.view;
 
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
 import androidx.core.view.GravityCompat;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 
+import com.example.joaovitor_navigationdrawer.*;
+import com.example.joaovitor_navigationdrawer.view.fragments.*;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -49,11 +47,11 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 if (item.getItemId() == R.id.nav_quinto_periodo){
-                    fragment = new QuartoPeriodoFragment();
+                    fragment = new QuintoPeriodoFragment();
                 }
 
                 if (item.getItemId() == R.id.nav_sexto_periodo){
-                    fragment = new SegundoPeriodoFragment();
+                    fragment = new SextoPeriodoFragment();
                 }
 
                if (fragment != null){

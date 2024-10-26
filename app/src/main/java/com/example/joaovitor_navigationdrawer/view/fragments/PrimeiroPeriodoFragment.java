@@ -1,4 +1,4 @@
-package com.example.joaovitor_navigationdrawer;
+package com.example.joaovitor_navigationdrawer.view.fragments;
 
 import android.os.Bundle;
 
@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import com.example.joaovitor_navigationdrawer.R;
 
 public class PrimeiroPeriodoFragment extends Fragment {
 
